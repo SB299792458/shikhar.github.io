@@ -30,7 +30,7 @@ System.register(['@angular/core', '../icons/icons.comp', '../social-media/social
                 HomeCmp.prototype.ngOnInit = function () {
                     $('.description').typed({
                         strings: [
-                            'Masters in Computer Science Student ..', 'University of Pennsylvania ;'
+                            'Master of Science in Computer Science Student ..', 'University of Pennsylvania ;'
                         ],
                         backDelay: 300,
                         typeSpeed: 30

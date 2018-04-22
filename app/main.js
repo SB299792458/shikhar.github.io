@@ -37,12 +37,12 @@ System.register(['@angular/core', '@angular/router', './components/home/home.com
                 IvanhoinackiApp.prototype.ngOnInit = function () {
                     $('.description').typed({
                         strings: [
-                            'web deev..', 'Frontend Engineer ;)'
+                          'Master of Science in Computer Science Student ..', 'University of Pennsylvania ;'
                         ],
                         backDelay: 300,
                         typeSpeed: 30
                     });
-                    console.log("@ivanhoinacki initialized...");
+                    console.log("@shikharbrajesh initialized...");
                 };
                 IvanhoinackiApp = __decorate([
                     core_1.Component({
@@ -56,7 +56,7 @@ System.register(['@angular/core', '@angular/router', './components/home/home.com
                     router_1.RouteConfig([
                         new router_1.Route({ path: '/', component: home_comp_1.HomeCmp, name: 'HomeCmp' }),
                         new router_1.Route({ path: '/resume', component: resume_comp_1.ResumeCmp, name: 'Resume' })
-                    ]), 
+                    ]),
                     __metadata('design:paramtypes', [])
                 ], IvanhoinackiApp);
                 return IvanhoinackiApp;
