@@ -30,7 +30,7 @@ System.register(['@angular/core', '../icons/icons.comp', '../social-media/social
                 HomeCmp.prototype.ngOnInit = function () {
                     $('.description').typed({
                         strings: [
-                            'web deev..', 'Frontend Engineer ;)'
+                            'Masters in Computer Science Student ..', 'University of Pennsylvania ;'
                         ],
                         backDelay: 300,
                         typeSpeed: 30
@@ -45,7 +45,7 @@ System.register(['@angular/core', '../icons/icons.comp', '../social-media/social
                         providers: [],
                         directives: [icons_comp_1.IconsComp, social_media_comp_1.SocialMediaComp],
                         pipes: []
-                    }), 
+                    }),
                     __metadata('design:paramtypes', [])
                 ], HomeCmp);
                 return HomeCmp;
