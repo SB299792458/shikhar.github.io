@@ -37,7 +37,7 @@ System.register(['@angular/core', '@angular/router', './components/home/home.com
                 IvanhoinackiApp.prototype.ngOnInit = function () {
                     $('.description').typed({
                         strings: [
-                          'Master of Science in Computer Science Student ..', 'University of Pennsylvania ;'
+                          'MS in CS Student ..', 'University of Pennsylvania ;'
                         ],
                         backDelay: 300,
                         typeSpeed: 30
